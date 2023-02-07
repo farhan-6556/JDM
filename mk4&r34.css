@@ -1,0 +1,302 @@
+.outer{
+    width: 100%;
+    height: 700px;
+   background-image: url(r34&mk44.jpg);
+   background-size: cover;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+}
+.header{
+   width: 60%;
+   height: 60px; 
+   margin-left: 300px;
+   padding-top: 30px;
+}
+.header-selection{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding-left: 2%;
+}
+.fast{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    background-color: inherit;
+    border-radius: 4px;
+    border: none;
+}
+.logopng{
+    width: 30px;
+    height: 30px;
+    padding-left: 4%;
+}
+.space{
+    padding-left: 24%;
+}
+.header-selection:hover{
+    color: silver;
+}
+.logopng:hover{
+    transform: scale(1.2);
+}
+.jdmlogo{
+    width: 50px;
+    height: 90px;
+    position: absolute;
+    top: 24px;
+    left: 80%;
+}
+.jdmpng{
+    width: 44px;
+    height: 44px;
+    transform: rotate(322deg);
+}
+.fast:hover{
+    background-color: gray;
+}
+.heading{
+    font-size: 50px;
+    color: white;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.left-side{
+    position: absolute;
+    top: 150px;
+    left: 39%;
+    width: 30%;
+    height: 300px;
+}
+.name-r34{
+    font-size: 20px;
+    color: white;
+    background-color: inherit;
+    border-color: white;
+    margin-top: 10px;
+    float: left;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 350px;
+}
+.name-mk4{
+    font-size: 20px;
+    color: white;
+    background-color: inherit;
+    border-color: white;
+    margin-top: 10px;
+    float: left;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 350px;
+}
+.name-mk4:hover{
+    background-color: goldenrod;
+}
+.name-r34:hover{
+    background-color: rgb(46, 46, 242);
+}
+.rx7{
+    margin-top: 8px;
+    width: 49.7%;
+    height: 450px;
+    background-image: url(rx7.jpg);
+    background-size: cover;
+    float: left;
+}
+.nsx{
+    margin-top: 8px;
+    width: 49.7%;
+    height: 450px;
+    background-image: url(nsx.jpg);
+    background-size: cover; 
+    float: left;
+    margin-left: 8px;
+}
+.name-rx7{
+    font-size: 20px;
+    color: white;
+    background-color: inherit;
+    border-color: white;
+    margin-top: 86px;
+    margin-right: 20px;
+    float: right;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 350px;
+}
+.name-nsx{
+    font-size: 20px;
+    color: white;
+    background-color: inherit;
+    border-color: white;
+    margin-top: 86px;
+    margin-left: 20px;
+    float: left;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 350px;
+}
+.name-rx7:hover{
+    background-color: rgb(215, 29, 29);
+}
+.name-nsx:hover{
+    background-color: gray;
+}
+.third{
+    margin-top: 8px;
+    width: 100%;
+    height: 677px;
+    background: white;
+    float: left;
+}
+.lancer{
+    width: 20%;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 50px;
+    background-image: url(https://w0.peakpx.com/wallpaper/339/503/HD-wallpaper-mitsubishi-lancer-car-vehicles.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 5px lightslategray;
+    float: left;
+}
+.lancer:hover{
+    transform: scale(1.05);
+}
+.silvia{
+    width: 20%;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 120px;
+    background-image: url(https://wallpaperaccess.com/full/211837.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 5px lightslategray;
+    float: left;
+}
+.silvia:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.silvia-h{
+     margin-top: 10px;
+     margin-right: 5px;
+     font-size: 20px;
+     float: right;
+     font-weight: bold;
+     color: rgb(249, 248, 248);
+}
+.silvia-h:hover{
+    color: silver;
+    cursor: pointer;
+}
+.corolla{
+    width: 20%;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 50px;
+    background-image: url(https://wallpaperaccess.com/full/2859274.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 5px lightslategray;
+    float: left;
+}
+.corolla:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.footer{
+    float: left;
+    width: 100%;
+    height: 175px;
+    background-color: black;
+}
+.footer-png{
+    width: 20px;
+    height: 20px;
+    margin-left: 60px;
+}
+.icon{
+    margin-left: 34%;
+    margin-top: 30px;
+    width: 66%;
+    height: 40px;
+    float: left;
+
+}
+.after-c{
+    color: rgb(200, 197, 197);
+    float: left;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: -25px;
+    margin-left: 128px;
+}
+.last-line{
+    margin-left: 15%;
+    width: 80%;
+    height: 40px;
+    float: left;
+    margin-top: -20px;
+}
+.last-text{
+    color: rgb(200, 197, 197);
+    padding-left: 50px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.last-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main-gtr{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 95%;
+    margin-bottom: 15px;
+    height: 655px;
+    background-image: url(nissan-skyline-r34-4k-j6.jpg);
+    background-size: cover;
+    padding-left: 50px;
+    padding-top: 25px;
+    overflow:  hidden;
+}
+.gtr-header{
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.gtr-para{
+    margin-top: 5px;
+    color: silver;
+}
+.main-supra{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 95%;
+    margin-bottom: 15px;
+    height: 655px;
+    background-image: url(wallhaven-qz21w5_1920x1080.png);
+    background-size: cover;
+    padding-left: 50px;
+    padding-top: 25px;
+    overflow:  hidden;
+}
+.gtr-para:hover{
+    color: white;
+    cursor: pointer;
+}
